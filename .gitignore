@@ -1,0 +1,10 @@
+tutorial/
+results/
+runs/
+*.pt
+*.pyc
+*.out
+data/
+__pycache__/
+models/
+tmp/

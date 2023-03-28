@@ -1,0 +1,1 @@
+../venv/bin/python3 ddpm_conditional.py --run_name epoch_1000_view_10-6000 --batch_size 30 --root_dir data/diffusion_fix/03001627 --epoch_ini 350

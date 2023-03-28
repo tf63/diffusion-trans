@@ -1,0 +1,11 @@
+pillow
+matplotlib
+jupyter
+ipykernel
+numpy
+pandas
+scipy
+tqdm
+flake8
+autopep8
+opencv-python
