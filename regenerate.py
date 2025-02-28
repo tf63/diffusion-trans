@@ -189,7 +189,7 @@ if __name__ == '__main__':
             for i in range(noise_steps):
                 epsilon_t = torch.randn_like(x)
                 x = torch.sqrt(diffusion.alpha[i]) * x + torch.sqrt(1 - diffusion.alpha[i]) * epsilon_t
-
+                
                 if save_x_t and i % save_step == 0:
                     x_plot = torch.cat([x, img[0]], dim=0)
                     x_plot = (x_plot.clamp(-1, 1) + 1) / 2
